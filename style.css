@@ -1,0 +1,50 @@
+	body{ 
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  align-items: center;
+  text-transform: uppercase;
+ display: flex;
+ flex-wrap: wrap;
+justify-content: center;
+
+}
+
+h1{
+	color: white;
+	text-shadow: -2px 2px 2px green, 4px -4px  4px red ;	
+	position: absolute;
+	top:250px;
+}
+
+.line{
+	border: 2px solid #dc3545;
+	height: 0px;
+	width: 120px;
+	position: absolute;
+	top: 479px;
+}
+
+.btn{
+     width: 150px;
+     border-radius: 200px;
+     letter-spacing: 3px;
+     padding: 10px;
+     background-color: green;
+     position: relative;
+	top: 540px;
+	right: 5px;
+ }
+.btn:hover { 
+      color: red; 
+    background-color: black;
+      box-shadow: 0 0 80px red; 
+    } 
+
+    
+     
+      
+
+
